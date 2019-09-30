@@ -1,6 +1,6 @@
-# exercism-javascript
+# Exercism- JavaScript track
 
-#### Currently working through the JavaScript track on Exercism.io
+#### Currently working through the [JavaScript track](https://exercism.io/my/tracks/javascript) on Exercism.io
 
 ## Challenges completed
 - [x] Hello World
