@@ -5,7 +5,7 @@
 ## Challenges completed
 - [x] Hello World
 - [x] Two Fer
-- [ ] Resistor Color (pending review)
+- [x] Resistor Color
 - [ ] Resistor Color Duo
 
 ## Non core challenges
