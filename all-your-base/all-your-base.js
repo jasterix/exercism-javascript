@@ -43,5 +43,4 @@ const binaryConvert = (num, binary = num, result = "") => {
     console.log(result)
     result.concat("1")
     binaryConvert(binary / 2)
-    // return binaryConvert(binary / 2).toString + (binary%2).toString
 }
