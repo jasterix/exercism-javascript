@@ -1,9 +1,10 @@
 import { colorCode, COLORS } from "./../resistor-color/resistor-color.js";
 
 export const value = arr => {
-  colorCode(arr[0]);
-  console.log(colorCode(arr[0]));
-
+  let number = arr.map(color => {
+    return colorCode(color);
+  });
+  console.log(number);
   //   parseInt(
   //     arr
   //       .map(color => COLORS.indexOf(color))
