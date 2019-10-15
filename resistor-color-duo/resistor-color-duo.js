@@ -1,3 +1,9 @@
-let colors = ["black","brown","red","orange","yellow","green","blue","violet","grey","white"]
+import { colorCode, COLORS } from "./../resistor-color/resistor-color.js";
 
-export const value = (arr) => parseInt(arr.map(color => colors.indexOf(color)).slice(0,2).join(""))
+export const value = arr =>
+  parseInt(
+    arr
+      .map(color => COLORS.indexOf(color))
+      .slice(0, 2)
+      .join("")
+  );
