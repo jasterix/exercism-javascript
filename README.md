@@ -9,7 +9,7 @@
 - [x] Resistor Color
 - [x] Resistor Color Duo
 - [x] Gigasecond
-- [ ] RNA Transcription
+- [x] RNA Transcription
 - [ ] Space Age
 - [ ] Pangram
 - [ ] Matrix
