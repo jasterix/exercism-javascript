@@ -10,8 +10,9 @@ const transcription = {
 };
 
 export const toRna = string => {
-  return [...string].map(letter => {
-    return transcription[letter];
-  });
-  // return result;
+  return [...string]
+    .map(letter => {
+      return transcription[letter];
+    })
+    .join("");
 };
