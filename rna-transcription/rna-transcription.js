@@ -4,19 +4,17 @@ const transcription = {
   C: "G",
   T: "A",
   A: "U"
-}
-let res = ""
+};
 
 export const toRna = string => {
-  for (let char of string) {
-    Object.entries(transcription).map(([key, value]) => {
-      if (key === char) {
-        res += value
-      }
-    })
-  }
-  return res
-}
+  let result = [];
+  [...string].map(letter => {
+    result += transcription[letter];
+    result.push(transcription[letter]);
+  });
+  result.push("hi");
+  return result;
+};
 
 // export const toRna = string => {
 //   for (let char of string) {
