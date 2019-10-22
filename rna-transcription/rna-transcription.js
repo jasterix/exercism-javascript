@@ -13,3 +13,14 @@ export const toRna = string => {
   });
   return result;
 };
+
+// export const toRna = string => {
+//   for (let char of string) {
+//     Object.entries(transcription).map(([key, value]) => {
+//       if (key === char) {
+//         res += value;
+//       }
+//     });
+//   }
+//   return res;
+// };
