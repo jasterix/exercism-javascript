@@ -10,7 +10,7 @@
 - [x] Resistor Color Duo
 - [x] Gigasecond
 - [x] RNA Transcription
-- [ ] Space Age
+- [x] Space Age
 - [ ] Pangram
 - [ ] Matrix
 - [ ] Bob
