@@ -5,15 +5,15 @@ describe('Space Age', () => {
     expect(age('earth', 1000000000)).toEqual(31.69);
   });
 
-  xtest('age on Mercury', () => {
+  test('age on Mercury', () => {
     expect(age('mercury', 2134835688)).toEqual(280.88);
   });
 
-  xtest('age on Venus', () => {
+  test('age on Venus', () => {
     expect(age('venus', 189839836)).toEqual(9.78);
   });
 
-  xtest('age on Mars', () => {
+  test('age on Mars', () => {
     expect(age('mars', 2129871239)).toEqual(35.88);
   });
 

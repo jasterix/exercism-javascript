@@ -1,8 +1,16 @@
-//
-// This is only a SKELETON file for the 'Space Age' exercise. It's been provided as a
-// convenience to get you started writing code faster.
-//
+export const age = (planet, seconds) => {
+  const secondsInYear = 31557600
+  const conversion = {
+  mercury: 0.2408467,
+  venus: 0.61519726,
+  earth: 1.0,
+  mars: 1.88081,
+  jupiter: 11.8626,
+  saturn: 29.44749,
+  uranus: 84.0168,
+  neptune: 164.79132
+  }
 
-export const age = () => {
-  throw new Error("Remove this statement and implement this function");
+  console.log(conversion[planet], seconds/secondsInYear)
+  return Math.round(seconds/secondsInYear/conversion[planet] * 100) / 100
 };
