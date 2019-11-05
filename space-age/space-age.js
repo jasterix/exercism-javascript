@@ -12,7 +12,7 @@ export const age = (planet, startingNumberOfSeconds) => {
   }
 
   return Math.round(
-    startingNumberOfSecondss/secondsInEarthYear
+    startingNumberOfSeconds/secondsInEarthYear
     /conversion[planet]
     * 100) / 100
 };
