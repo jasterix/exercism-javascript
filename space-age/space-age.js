@@ -2,7 +2,7 @@ export const age = (planet, seconds) => {
   const secondsInYear = 31557600
   const conversion = {
   mercury: 0.2408467,
-  menus: 0.61519726,
+  venus: 0.61519726,
   earth: 1.0,
   mars: 1.88081,
   jupiter: 11.8626,
