@@ -1,5 +1,5 @@
-export const age = (planet, seconds) => {
-  const secondsInYear = 31557600
+export const age = (planet, startingNumberOfSeconds) => {
+  const secondsInEarthYear = 31557600
   const conversion = {
   mercury: 0.2408467,
   venus: 0.61519726,
@@ -12,6 +12,7 @@ export const age = (planet, seconds) => {
   }
 
   return Math.round(
-    seconds/secondsInYear/conversion[planet]
+    startingNumberOfSeconds/secondsInEarthYear
+    /conversion[planet]
     * 100) / 100
 };
