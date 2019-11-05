@@ -11,6 +11,7 @@ export const age = (planet, seconds) => {
   neptune: 164.79132
   }
 
-  console.log(conversion[planet], seconds/secondsInYear)
-  return Math.round(seconds/secondsInYear/conversion[planet] * 100) / 100
+  return Math.round(
+    seconds/secondsInYear/conversion[planet]
+    * 100) / 100
 };
