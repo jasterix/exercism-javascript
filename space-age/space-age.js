@@ -11,8 +11,6 @@ export const age = (planet, startingNumberOfSeconds) => {
   neptune: 164.79132
   }
 
-  return Math.round(
-    startingNumberOfSeconds/secondsInEarthYear
-    /conversion[planet]
-    * 100) / 100
+  return +(startingNumberOfSeconds/secondsInEarthYear
+  /conversion[planet]).toFixed(2)
 };
