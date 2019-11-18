@@ -1,13 +1,16 @@
 export class Matrix {
   constructor(string) {
     // invokes the setter
-    self.matrix = string.split("\n")
+    self.row = string.split("\n")
+    for (let i of row) {
+      console.log(i.split(" "))
+    }
 
   }
 
   get rows() {
-    console.log(self.matrix)
-    return self.matrix
+    // console.log(self.matrix)
+    return self.row
   }
 
   get columns() {
