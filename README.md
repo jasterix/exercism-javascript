@@ -11,7 +11,7 @@
 - [x] Gigasecond
 - [x] RNA Transcription
 - [x] Space Age
-- [ ] Pangram
+- [x] Pangram
 - [ ] Matrix
 - [ ] Bob
 - [ ] Pascal's Triangle
