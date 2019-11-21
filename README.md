@@ -13,6 +13,7 @@
 - [x] Space Age
 - [x] Pangram
 - [ ] Matrix
+### Medium Challenges
 - [ ] Bob
 - [ ] Pascal's Triangle
 - [ ] Linked List
