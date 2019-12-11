@@ -7,3 +7,11 @@ class Point {
   toString(){
     return this.x + "," + this.y
   }
+
+  get point(){
+    return this.x + ","+this.y
+  }
+  set length(len){
+    this.length = 12
+  }
+  }
