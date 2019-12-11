@@ -5,13 +5,15 @@ export const toRoman = (number) => {
   // convert number to array
   let num = number.toString().split()
   //  count the number of digits
-  let len = num.length
+  // let len = num.length
   //  convert each number to roman right to left
   for (let d of num){
     for (let i =0; i< d;i++){
       return conversion["I"]
   }
-}
+  }
+ 
+
   //  track the result
   console.log(num.length)
 };
