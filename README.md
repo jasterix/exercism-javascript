@@ -13,6 +13,7 @@
 - [x] Space Age
 - [x] Pangram
 - [ ] Matrix
+
 ### Medium Challenges
 - [ ] Bob
 - [ ] Pascal's Triangle
@@ -20,6 +21,8 @@
 
 ## Non core challenges
 
+### Easy Challenges
 - [x] Armstrong Numbers
 - [ ] All Your Base (wip)
 - [ ] Triangle
+- [ ] High Scores
