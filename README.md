@@ -22,3 +22,4 @@
 
 - [x] Armstrong Numbers
 - [ ] All Your Base (wip)
+- [ ] Triangle
