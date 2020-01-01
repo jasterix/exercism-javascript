@@ -13,6 +13,9 @@ export class HighScores {
   }
 
   get latest() {
+    let scores = this.input
+    return scores[scores.length-1]
+    console.log(this.input.length-1)
 
   }
 
