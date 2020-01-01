@@ -24,6 +24,9 @@ export class HighScores {
   }
 
   get personalTopThree() {
+    let scores = this.input
+    let reverse = [...scores].sort((a, b) => b - a)
+    return reverse.splice(0,3)
 
   }
 }

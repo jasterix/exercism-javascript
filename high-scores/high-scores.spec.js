@@ -26,17 +26,17 @@ describe('High Scores Test Suite', () => {
     expect(new HighScores(input).personalTopThree).toEqual([30, 20, 10]);
   });
 
-  xtest('Personal top when ther eis a tie', () => {
+  test('Personal top when ther eis a tie', () => {
     const input = [40, 20, 40, 30];
     expect(new HighScores(input).personalTopThree).toEqual([40, 40, 30]);
   });
 
-  xtest('Personal top when there are less than 3', () => {
+  test('Personal top when there are less than 3', () => {
     const input = [30, 70];
     expect(new HighScores(input).personalTopThree).toEqual([70, 30]);
   });
 
-  xtest('Personal top when there is only one', () => {
+  test('Personal top when there is only one', () => {
     const input = [40];
     expect(new HighScores(input).personalTopThree).toEqual([40]);
   });
