@@ -4,23 +4,23 @@
 //
 
 export class HighScores {
-  constructor() {
-    throw new Error("Remove this statement and implement this function");
+  constructor(input) {
+    this.input = input
   }
 
   get scores() {
-    throw new Error("Remove this statement and implement this function");
+    return this.input
   }
 
   get latest() {
-    throw new Error("Remove this statement and implement this function");
+
   }
 
   get personalBest() {
-    throw new Error("Remove this statement and implement this function");
+
   }
 
   get personalTopThree() {
-    throw new Error("Remove this statement and implement this function");
+
   }
 }
