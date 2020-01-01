@@ -16,11 +16,11 @@ export class HighScores {
     let scores = this.input
     return scores[scores.length-1]
     console.log(this.input.length-1)
-
   }
 
   get personalBest() {
-
+    let scores = this.input
+    return Math.max(...scores)
   }
 
   get personalTopThree() {
