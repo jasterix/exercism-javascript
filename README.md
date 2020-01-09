@@ -15,6 +15,7 @@
 - [ ] Matrix
 
 ### Medium Challenges
+
 - [ ] Bob
 - [ ] Pascal's Triangle
 - [ ] Linked List
@@ -22,7 +23,8 @@
 ## Non core challenges
 
 ### Easy Challenges
+
 - [x] Armstrong Numbers
 - [ ] All Your Base (wip)
 - [ ] Triangle
-- [ ] High Scores
+- [x] High Scores
