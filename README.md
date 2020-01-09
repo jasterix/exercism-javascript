@@ -28,3 +28,4 @@
 - [ ] All Your Base (wip)
 - [ ] Triangle
 - [x] High Scores
+- [ ] Acronym
