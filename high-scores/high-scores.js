@@ -1,27 +1,25 @@
 export class HighScores {
   constructor(input) {
-    this.input = input
+    this.input = input;
   }
 
   get scores() {
-    return this.input
+    return this.input;
   }
 
   get latest() {
-    let scores = this.input
-    return scores[scores.length-1]
-    console.log(this.input.length-1)
+    let scores = this.input;
+    return scores[scores.length - 1];
   }
 
   get personalBest() {
-    let scores = this.input
-    return Math.max(...scores)
+    let scores = this.input;
+    return Math.max(...scores);
   }
 
   get personalTopThree() {
-    let scores = this.input
-    let reverse = [...scores].sort((a, b) => b - a)
-    return reverse.splice(0,3)
-
+    let scores = this.input;
+    let reverse = [...scores].sort((a, b) => b - a);
+    return reverse.splice(0, 3);
   }
 }
